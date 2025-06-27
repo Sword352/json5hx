@@ -1,0 +1,11 @@
+{
+    "name": "json5hx",
+    "url": "https://github.com/Sword352/json5hx",
+    "license": "MIT",
+    "tags": ["parser", "json", "json5", "cross"],
+    "description": "Cross-platform JSON5 parser",
+    "version": "1.0.0",
+    "classPath": "json5hx/",
+    "releasenote": "Initial release",
+    "contributors": ["Sword352"]
+}

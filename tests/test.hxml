@@ -1,0 +1,112 @@
+## Flash 9+
+-main TestMain
+-lib munit
+-lib hamcrest
+-cp ../
+-cp src
+--resource res/testDocument.json5
+
+-swf-version 11
+-swf build/as3_test.swf
+
+## JavaScript
+--next
+-main TestMain
+-lib munit
+-lib hamcrest
+-cp ../
+-cp src
+--resource res/testDocument.json5
+
+-js build/js_test.js
+
+## Neko
+--next
+-main TestMain
+-lib munit
+-lib hamcrest
+-cp ../
+-cp src
+--resource res/testDocument.json5
+
+-neko build/neko_test.n
+
+## CPP
+--next
+-main TestMain
+-lib munit
+-lib hamcrest
+-cp ../
+-cp src
+--resource res/testDocument.json5
+
+#-D HXCPP_M64
+-cpp build/cpp_test
+
+## Python
+--next
+-main TestMain
+-lib munit
+-lib hamcrest
+-cp ../
+-cp src
+--resource res/testDocument.json5
+
+-python build/python_test.py
+
+## PHP 7
+--next
+-main TestMain
+-lib munit
+-lib hamcrest
+-cp ../
+-cp src
+--resource res/testDocument.json5
+
+-D php7
+-php build/php_test
+
+## JavaScript NodeJS
+--next
+-main TestMain
+-lib munit
+-lib hamcrest
+-lib hxnodejs
+-cp ../
+-cp src
+--resource res/testDocument.json5
+
+-js build/js_test.js
+
+## HashLink
+--next
+-main TestMain
+-lib munit
+-lib hamcrest
+-cp ../
+-cp src
+--resource res/testDocument.json5
+
+-hl build/hl_test.hl
+
+## LUA
+--next
+-main TestMain
+-lib munit
+-lib hamcrest
+-cp ../
+-cp src
+--resource res/testDocument.json5
+
+-lua build/lua_test.lua
+
+## JVM
+--next
+-main TestMain
+-lib munit
+-lib hamcrest
+-cp ../
+-cp src
+--resource res/testDocument.json5
+
+--jvm build/jvm_test.jar
