@@ -67,5 +67,6 @@ JSON5 offers features JSON doesn't have, notably (but not limited to):
 - Leading/trailing decimal point for decimal numbers
 - Explicit plus sign for decimal numbers
 - Hexadecimal numbers
+
 However, it is not meant to be a direct replacement to JSON, despite being backwards compatible with it.
 It is recommended to keep JSON for machine-to-machine communication or large data structures, as JSON5 parsing can be much slower in these contexts.
