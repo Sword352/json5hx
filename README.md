@@ -28,7 +28,7 @@ No \\n's!",
 // Main.hx
 package;
 
-import json5hx.Json5;
+import haxe.Json5;
 
 class Main {
     static function main(): Void {
