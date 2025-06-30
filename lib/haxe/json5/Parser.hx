@@ -1,6 +1,6 @@
-package haxe;
+package haxe.json5;
 
-import haxe.Token;
+import haxe.json5.Token;
 
 using StringTools;
 

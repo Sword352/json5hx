@@ -1,20 +1,20 @@
 ## Flash 9+
--main TestMain
--lib munit
--lib hamcrest
--cp ../
--cp src
---resource res/testDocument.json5
+# -main TestMain
+# -lib munit
+# -lib hamcrest
+# -cp ../
+# -cp src
+# --resource res/testDocument.json5
 
--swf-version 11
--swf build/as3_test.swf
+# -swf-version 11
+# -swf build/as3_test.swf
 
 ## JavaScript
 --next
 -main TestMain
 -lib munit
 -lib hamcrest
--cp ../
+-cp ../lib/
 -cp src
 --resource res/testDocument.json5
 
@@ -25,7 +25,7 @@
 -main TestMain
 -lib munit
 -lib hamcrest
--cp ../
+-cp ../lib/
 -cp src
 --resource res/testDocument.json5
 
@@ -36,7 +36,7 @@
 -main TestMain
 -lib munit
 -lib hamcrest
--cp ../
+-cp ../lib/
 -cp src
 --resource res/testDocument.json5
 
@@ -48,7 +48,7 @@
 -main TestMain
 -lib munit
 -lib hamcrest
--cp ../
+-cp ../lib/
 -cp src
 --resource res/testDocument.json5
 
@@ -59,7 +59,7 @@
 -main TestMain
 -lib munit
 -lib hamcrest
--cp ../
+-cp ../lib/
 -cp src
 --resource res/testDocument.json5
 
@@ -72,7 +72,7 @@
 -lib munit
 -lib hamcrest
 -lib hxnodejs
--cp ../
+-cp ../lib/
 -cp src
 --resource res/testDocument.json5
 
@@ -83,7 +83,7 @@
 -main TestMain
 -lib munit
 -lib hamcrest
--cp ../
+-cp ../lib/
 -cp src
 --resource res/testDocument.json5
 
@@ -94,7 +94,7 @@
 -main TestMain
 -lib munit
 -lib hamcrest
--cp ../
+-cp ../lib/
 -cp src
 --resource res/testDocument.json5
 
@@ -105,7 +105,7 @@
 -main TestMain
 -lib munit
 -lib hamcrest
--cp ../
+-cp ../lib/
 -cp src
 --resource res/testDocument.json5
 
