@@ -4,8 +4,8 @@
     "license": "MIT",
     "tags": ["parser", "json", "json5", "cross"],
     "description": "Cross-platform JSON5 parser",
-    "version": "1.0.0",
-    "classPath": "json5hx/",
+    "version": "1.0.1",
+    "classPath": "lib/",
     "releasenote": "Initial release",
     "contributors": ["Sword352"]
 }
