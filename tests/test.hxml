@@ -2,7 +2,7 @@
 -main TestMain
 -lib munit
 -lib hamcrest
--cp ../
+-cp ../lib/
 -cp src
 --resource res/testDocument.json5
 
