@@ -6,6 +6,6 @@
     "description": "Cross-platform JSON5 parser",
     "version": "1.0.1",
     "classPath": "lib/",
-    "releasenote": "Initial release",
+    "releasenote": "Fixed packaging",
     "contributors": ["Sword352"]
 }
