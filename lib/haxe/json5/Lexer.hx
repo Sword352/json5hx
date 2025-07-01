@@ -1,6 +1,6 @@
-package json5hx;
+package haxe.json5;
 
-import json5hx.Token;
+import haxe.json5.Token;
 
 class Lexer {
     var content: String;
@@ -10,7 +10,7 @@ class Lexer {
     var currLine: Int = 1;
     var currColumn: Int = 1;
 
-    @:allow(json5hx.Json5)
+    @:allow(haxe.Json5)
     function new(content: String): Void {
         this.content = content;
     }

@@ -1,4 +1,4 @@
-package json5hx;
+package haxe.json5;
 
 enum Token {
     TId(raw: String, pos: TokenPos);

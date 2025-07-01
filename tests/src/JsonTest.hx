@@ -1,4 +1,4 @@
-import json5hx.Json5;
+import haxe.Json5;
 import massive.munit.Assert;
 
 class JsonTest {

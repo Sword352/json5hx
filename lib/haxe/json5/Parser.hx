@@ -1,6 +1,6 @@
-package json5hx;
+package haxe.json5;
 
-import json5hx.Token;
+import haxe.json5.Token;
 
 using StringTools;
 
@@ -11,7 +11,7 @@ class Parser {
     var numberRegex: EReg = new EReg("^(?:[+-]?(?:(?:[1-9]\\d*|0)(?:\\.\\d*)?|\\.\\d+)(?:[Ee][+-]?\\d+)?)$", "");
     var hexadecimalRegex: EReg = new EReg("^[+-]?(?:0x)[0-9a-f]+$", "i");
 
-    @:allow(json5hx.Json5)
+    @:allow(haxe.Json5)
     function new(tokens: Array<Token>): Void {
         this.tokens = tokens;
     }

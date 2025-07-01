@@ -1,4 +1,7 @@
-package json5hx;
+package haxe;
+
+import haxe.json5.Lexer;
+import haxe.json5.Parser;
 
 class Json5 {
     /**
