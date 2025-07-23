@@ -10,7 +10,7 @@ class Json5 {
      * @param content Document to parse.
      * @return Any
      */
-    public static function parse(content: String): Any {
+    public static function parse(content: String): Null<Any> {
         if (content == null)
             throw 'Cannot parse null Json5 document';
 
