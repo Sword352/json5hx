@@ -3,8 +3,8 @@
     "url": "https://github.com/Sword352/json5hx",
     "license": "MIT",
     "tags": ["parser", "json", "json5", "cross"],
-    "description": "Cross-platform JSON5 parser",
-    "version": "1.0.1",
+    "description": "Better null-safety",
+    "version": "1.0.2",
     "classPath": "lib/",
     "releasenote": "Fixed packaging",
     "contributors": ["Sword352"]
