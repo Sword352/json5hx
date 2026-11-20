@@ -2,6 +2,8 @@ package haxe;
 
 import haxe.json5.Lexer;
 import haxe.json5.Parser;
+import haxe.json5.Stringifier;
+import haxe.json5.StringifyOptions;
 
 class Json5 {
     /**
@@ -20,6 +22,18 @@ class Json5 {
         var lexer: Lexer = new Lexer(content);
         var parser: Parser = new Parser(lexer.tokenize());
         return parser.parse();
+    }
+
+    /**
+     * Converts a non-null Haxe object to a JSON5 document.
+     * @param value The value or object to stringify.
+     * @param options Optional parameters to format the final output.
+     * @return String
+     */
+    public static function stringify(value: Any, ?options: StringifyOptions): String {
+        if (value == null)
+            throw 'Cannot stringify null Json5 value';
+        return new Stringifier(options).stringify(value);
     }
 
     /**
